@@ -8,6 +8,7 @@ function setup() {
 
 // set canvas size
     const canvasSize = 700;
+    // const middle = 50;
 
 
 
@@ -18,9 +19,14 @@ function setup() {
     background(220);
 for (let i = 0; i < width; i += 100) {
     for (let j = 0; j < height; j += 100) {
-      rect(i, j, 100, 100);
-      rect(i,j,95,95)
-      rect(i,j,90,90)
+        
+    
+      rect(i,j, 100, 100); //main grid square
+      
+      let newi = i + 10
+      rect(i,j,95,95,)
+      
+      rect(newi,j,90,90)
       rect(i,j,85,85)
       rect(i,j,80,80)
       rect(i,j,75,75)
