@@ -24,25 +24,25 @@ function setup() {
             push();
 
 
-            let newi = i + 5;
-            let newj = j + 5;
-            rect(newi, newj, 90, 90,);
+            let newi = i +  random(5) + 5;
+            let newj = j +  random(5) + 5;
+            rect(newi, newj, random(5) + 90, random(5) + 90,);
             
-            let newi1 = i + 10;
-            let newj1 = j + 10;
-            rect(newi1, newj1, 80, 80);
+            let newi1 = i +  random(10) + 5;
+            let newj1 = j +  random(10) + 5;
+            rect(newi1, newj1, random(5) + 80,random(5) + 80);
 
-            let newi2 = i + 15;
-            let newj2 = j +15;
-            rect(newi2, newj2, 70, 70);
+            let newi2 = i +  random(15) + 5;
+            let newj2 = j + random(15) + 5;
+            rect(newi2, newj2, random(5) + 70, random(5) + 70);
 
-            let newi3 = i + 20;
-            let newj3 = j + 20;
-            rect(newi3, newj3, 60, 60);
+            let newi3 = i +  random(20) + 5;
+            let newj3 = j +  random(20) + 5;
+            rect(newi3, newj3, random(5) + 60, random(5) + 60);
 
-            let newi4 = i + 25;
-            let newj4 = j + 25;
-            rect(newi4, newj4, 50, 50);
+            let newi4 = i +  random(25) + 5;
+            let newj4 = j +  random(25) + 5;
+            rect(newi4, newj4, random(5) + 50, random(5) + 50);
 
             
 
